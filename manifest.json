@@ -1,0 +1,15 @@
+{
+"name" : "Example" ,
+"short_name" : "Exam" ,
+"version" : "0.0.1" ,
+"manifest_version": 3 ,
+"description" :"Some descp here",
+"content_scripts": 
+ [
+    {
+        "js": ["init.js"] ,
+        "matches" : ["https://example.com/"] ,
+        "css" : ["main.css"]
+     }      
+    ] 
+}
